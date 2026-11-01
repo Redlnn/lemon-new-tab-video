@@ -1,0 +1,30 @@
+{
+  "name": "promo-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Remotion video",
+  "license": "AGPL-3.0-only",
+  "repository": {},
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.539",
+    "@remotion/fonts": "^4.0.539",
+    "@remotion/media": "^4.0.539",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.539"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "^4.0.539",
+    "@types/react": "^19.3.0",
+    "@types/web": "^0.0.359",
+    "eslint": "^10.14.0",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3"
+  }
+}
